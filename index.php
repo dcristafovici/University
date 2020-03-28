@@ -2,17 +2,33 @@
 //Require Once Files
 require_once "Database.php";
 
-$products = Database::getInstance()->query("SELECT * FROM products where name IN(?,?)", ['Dell G3 15', 'Macbook PRO']);
+#$products = Database::getInstance()->get('products', ['name', '=', 'Macbook PRO']);
+#Database::getInstance()->delete('products', ['name', '=', 'test']);
+//Database::getInstance()->insert('products', [
+//  'name' => 'Tested',
+//  'stock' => '20',
+//  'price' => '1153'
+//]);
 
-if($products->showError()){
-  echo 'you have eror';
-}
-else{
 
-  $results = $products->showResult();
-  foreach($results as $result){
+Database::getInstance()->update('products', 4, [
 
-    echo $result->name.'<br>';
+  'name' => 'Lenovo New',
+  'stock' => '200',
+  'price' => '7500'
 
-  }
-}
+]);
+
+
+//if($products->showError()){
+//  echo 'you have eror';
+//}
+//else{
+//
+//  $results = $products->showResult();
+//  foreach($results as $result){
+//
+//    var_dump($result);
+//
+//  }
+//}
