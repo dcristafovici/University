@@ -11,7 +11,7 @@ class Database
   private function __construct()
   {
     try{
-      $this->pdo = new PDO("mysql:host=localhost;dbname=university;", 'mysql', 'mysql');
+      $this->pdo = new PDO("mysql:host=". Config::get('mysql.host') .";dbname=". Config::get('mysql.dbname') .";", Config::get('mysql.username'), Config::get('mysql.password'));
     }
     catch (PDOException $e){
       echo $e->getMessage();
