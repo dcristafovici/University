@@ -51,6 +51,11 @@ class Validate
 							}
 						break;
 						
+						case 'email';
+						if(!filter_var($value, FILTER_VALIDATE_EMAIL)){
+							$this->addError("{$item} не правильный формат");
+						}
+						
 					}
 					
 				}
