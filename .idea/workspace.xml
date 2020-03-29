@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f7f0955-9ead-493b-8110-6d397d8273ed" name="Default Changelist" comment="Method Query">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Input.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Validate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Token.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -24,6 +22,7 @@
   <component name="ProjectId" id="1ZkCJ5Cbrr8gtmWDJIK2NPLqEms" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,7 +47,7 @@
       <workItem from="1585387195447" duration="531000" />
       <workItem from="1585394409463" duration="4489000" />
       <workItem from="1585404734587" duration="634000" />
-      <workItem from="1585450544676" duration="3473000" />
+      <workItem from="1585450544676" duration="5736000" />
     </task>
     <servers />
   </component>
@@ -68,18 +67,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585376889088" />
-    <state x="325" y="4" key="CommitChangelistDialog2" timestamp="1585377714833">
+    <state x="325" y="4" key="CommitChangelistDialog2" timestamp="1585452680087">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="325" y="4" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585377714833" />
-    <state x="558" y="227" key="NewPhpClassDialog" timestamp="1585452019630">
+    <state x="325" y="4" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585452680087" />
+    <state x="558" y="227" key="NewPhpClassDialog" timestamp="1585452445148">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="558" y="227" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1585452019630" />
-    <state x="572" y="335" key="NewPhpFileDialog" timestamp="1585373653362">
+    <state x="558" y="227" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1585452445148" />
+    <state x="572" y="335" key="NewPhpFileDialog" timestamp="1585452157930">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="572" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1585373653362" />
+    <state x="572" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1585452157930" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1585396559753">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -88,10 +87,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="418" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585450593983" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1585395705634">
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1585452539563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585395705634" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585452539563" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585453341143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
