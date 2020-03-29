@@ -6,7 +6,15 @@ require_once 'init.php';
 $user = new User();
 if($user->isLoggedIn()){
 	echo "hello {$user->data()->name}".'<br>';
-	echo "<a href='logout.php'>Logout</a>";
+	echo "<a href='logout.php'>Logout</a>"."<br>";
+	echo "<a href='update.php'>Update</a>"."<br>";
+	echo "<a href='changepassword.php'>Change Password</a>" .'<br>';
+	
+	if($user->hasPermissions('admin')){
+		echo '<h1>you are admin</h1>';
+	}
+
+	
 }
 
 

@@ -53,7 +53,7 @@ class Validate
 						
 						case 'email';
 						if(!filter_var($value, FILTER_VALIDATE_EMAIL)){
-							$this->addError("{$item} не правильный форматdanu@mail.ru");
+							$this->addError("{$item} не правильный формат");
 						}
 						
 					}

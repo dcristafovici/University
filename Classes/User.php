@@ -83,4 +83,33 @@ class User
 		return Session::delete($this->session_name, $this->data->id);
 	}
 	
+	public function update($fields = [], $id=null){
+	
+		if(!$id && $this->isLoggedIn){
+			$id = $this->data()->id;
+		}
+		$this->db->update('products', $id, $fields);
+	
+	
+	}
+	
+	public function hasPermissions($key = null){
+	
+		$group = $this->db->get('groups', ['id', '=', $this->data()->group_id]);
+		
+		if($group->count()){
+			
+				$permissions = $group->first()->permissions;
+			  $permissions = json_decode($permissions, true);
+			
+			  if($permissions[$key]){
+			  	return true;
+				}
+			
+		}
+		
+		return false;
+		
+	}
+	
 }
