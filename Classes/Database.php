@@ -145,5 +145,10 @@ class Database
     return $this->count;
 
   }
+  
+  public function first(){
+  	
+  	return $this->showResult()[0];
+	}
 
 }
